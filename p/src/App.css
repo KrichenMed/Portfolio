@@ -16,7 +16,7 @@
 .dropdown-menu.show {
     background-color: #00000024;
     backdrop-filter: blur(10px);
-    z-index: 100000000;
+    z-index: 100000001;
 }
 
 #footer {
