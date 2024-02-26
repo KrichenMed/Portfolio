@@ -2,8 +2,8 @@
   "files": {
     "main.css": "/static/css/main.b06568cc.css",
     "main.js": "/static/js/main.90b3524a.js",
-    "static/media/MLogoBlack.png": "/static/media/MLogoBlack.9fe79eed9d4fbb31bc92.png",
-    "static/media/MLogoWhite.png": "/static/media/MLogoWhite.899e7e66d4e0493437c4.png",
+    "static/media/MLogoBlack.png": "static/media/MLogoBlack.9fe79eed9d4fbb31bc92.png",
+    "static/media/MLogoWhite.png": "static/media/MLogoWhite.899e7e66d4e0493437c4.png",
     "index.html": "/index.html",
     "main.b06568cc.css.map": "/static/css/main.b06568cc.css.map",
     "main.90b3524a.js.map": "/static/js/main.90b3524a.js.map"
