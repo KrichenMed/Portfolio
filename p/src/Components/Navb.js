@@ -21,12 +21,21 @@ function Navb({ isDarkTheme, onThemeChange }) {
     >
       <Container>
         <Navbar.Brand href="">
-          <img
-            alt=""
-            src={isDarkTheme ? MLogoWhite : MLogoBlack}
-            height="32"
-            className="d-inline-block align-top"
-          />
+          {isDarkTheme ? (
+            <img
+              alt=""
+              src={MLogoWhite}
+              height="32"
+              className="d-inline-block align-top"
+            />
+          ) : (
+            <img
+              alt=""
+              src={MLogoBlack}
+              height="32"
+              className="d-inline-block align-top"
+            />
+          )}
           {""}
         </Navbar.Brand>
         <Navbar.Toggle
