@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "./static/css/main.b06568cc.css",
-    "main.js": "./static/js/main.983a74dd.js",
+    "main.css": "./static/css/main.4aa4e376.css",
+    "main.js": "./static/js/main.c8f03539.js",
+    "static/media/IMG_1824.JPG": "./static/media/IMG_1824.ad1120c6c7cff760e084.JPG",
     "static/media/MLogoBlack.png": "./static/media/MLogoBlack.9fe79eed9d4fbb31bc92.png",
     "static/media/MLogoWhite.png": "./static/media/MLogoWhite.899e7e66d4e0493437c4.png",
+    "static/media/download-square-svgrepo-com dark.svg": "./static/media/download-square-svgrepo-com dark.9d7443127de3fbf2461f58d7092224fa.svg",
+    "static/media/arrow-up-right-from-square-svgrepo-com light.svg": "./static/media/arrow-up-right-from-square-svgrepo-com light.72d69c14f5397042ceab0865d20644f6.svg",
+    "static/media/arrow-up-right-from-square-svgrepo-com dark.svg": "./static/media/arrow-up-right-from-square-svgrepo-com dark.d42ce1741369efbf5908b341a4ba3742.svg",
+    "static/media/download-square-svgrepo-com light.svg": "./static/media/download-square-svgrepo-com light.3314846f75d43802be6ed72e15c0116b.svg",
+    "static/media/arrow-sm-right-svgrepo-com light.svg": "./static/media/arrow-sm-right-svgrepo-com light.95b0ea92d17a65164899e983416700c5.svg",
+    "static/media/arrow-sm-right-svgrepo-com dark.svg": "./static/media/arrow-sm-right-svgrepo-com dark.c07055c70121b714c191241209536b5b.svg",
     "index.html": "./index.html",
-    "main.b06568cc.css.map": "./static/css/main.b06568cc.css.map",
-    "main.983a74dd.js.map": "./static/js/main.983a74dd.js.map"
+    "main.4aa4e376.css.map": "./static/css/main.4aa4e376.css.map",
+    "main.c8f03539.js.map": "./static/js/main.c8f03539.js.map"
   },
   "entrypoints": [
-    "static/css/main.b06568cc.css",
-    "static/js/main.983a74dd.js"
+    "static/css/main.4aa4e376.css",
+    "static/js/main.c8f03539.js"
   ]
 }
