@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Grids from "./Components/Main";
 import Footer from "./Components/Footer";
 import React, { useState } from "react";
+import HandwrittenTextAnimation from "./Components/HandWrittenSVG";
 
 function App() {
   const [isDarkTheme, setIsDarkTheme] = useState(false);
@@ -18,9 +19,12 @@ function App() {
 
   return (
     <div className={`App ${isDarkTheme ? "light-theme" : "dark-theme"}`}>
+      <div style={{ position: "fixed", zIndex: "9999999999999999999999999" }}>
+        <HandwrittenTextAnimation />
+      </div>
       <Navb isDarkTheme={isDarkTheme} onThemeChange={handleThemeChange} />
-      <div id="grids">
-        <Grids />
+      <div className={`Grids${isDarkTheme ? "-light" : "-dark"}`}>
+        <Grids isDarkTheme={isDarkTheme} />
       </div>
       <div className={`bg-animation ${isDarkTheme ? "-light" : "-dark"}`}>
         <div id={`stars1${isDarkTheme ? "-dark" : ""}`}></div>
@@ -28,7 +32,10 @@ function App() {
         <div id={`stars3${isDarkTheme ? "-dark" : ""}`}></div>
         <div id={`stars4${isDarkTheme ? "-dark" : ""}`}></div>
       </div>
-      <div id="footer">
+      <div
+        id="footer"
+        style={{ left: "0%", right: "0%", position: "absolute", bottom: "0" }}
+      >
         <Footer isDarkTheme={isDarkTheme} />
       </div>
       <Routes>
