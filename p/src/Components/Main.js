@@ -11,7 +11,7 @@ const Grids = ({ isDarkTheme }) => {
   return (
     <Container>
       <section id="aboutme">
-        <table style={{ marginTop: "150px" }}>
+        <table style={{ marginTop: "150px", flexDirection: "row" }}>
           <thead>
             <tr>
               <th></th>
@@ -58,9 +58,22 @@ const Grids = ({ isDarkTheme }) => {
                 <Image src={mypicture} style={{ width: "260px" }} rounded />
               </td>
             </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="experience">
+        <table style={{ marginTop: "150px", flexDirection: "row" }}>
+          <thead>
             <tr>
-              <td></td>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td></td>
               <td></td>
@@ -102,12 +115,25 @@ const Grids = ({ isDarkTheme }) => {
                   text="See Full Projects Archive"
                   isDarkTheme={isDarkTheme}
                 />
-                <br />
-                <h2>
-                  <b>What Can I do for you ?</b>
-                </h2>
               </td>
             </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="Blog">
+        <table style={{ marginTop: "150px", flexDirection: "row" }}>
+          <thead>
+            <tr>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
             <tr>
               <td colspan="6"></td>
             </tr>
@@ -144,6 +170,24 @@ const Grids = ({ isDarkTheme }) => {
               <td colspan="2">e6</td>
               <td></td>
             </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="contact">
+        <table style={{ marginTop: "150px", flexDirection: "row" }}>
+          <thead>
+            <tr>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            
             <tr>
               <td colspan="6">lien + contact</td>
             </tr>
@@ -156,9 +200,7 @@ const Grids = ({ isDarkTheme }) => {
           </tbody>
         </table>
       </section>
-      <section id="experience"></section>
-      <section id="Blog"></section>
-      <section id="contact"></section>
+
       <br />
     </Container>
   );

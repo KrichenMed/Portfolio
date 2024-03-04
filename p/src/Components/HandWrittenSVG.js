@@ -66,7 +66,7 @@ const HandwrittenTextAnimation = () => {
           transform: "translate(-50%, -50%)",
         }}
       >
-        <h3 style={{ width: "600px" }}>
+        <h3 style={{ width: "300px" }}>
           <svg
             id="Layer_1"
             data-name="Layer 1"
