@@ -34,7 +34,6 @@ function App() {
       </div>
       <div
         id="footer"
-        style={{ left: "0%", right: "0%", position: "absolute", bottom: "0" }}
       >
         <Footer isDarkTheme={isDarkTheme} />
       </div>

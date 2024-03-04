@@ -61,6 +61,98 @@ const Grids = ({ isDarkTheme }) => {
             <tr>
               <td></td>
             </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td colspan="2">
+                <h2 style={{ marginTop: "25px", fontSize: "2.25rem" }}>
+                  <b>My Projects</b>
+                  <br />
+                  <p style={{ marginTop: "15px", fontSize: "1rem" }}>
+                    The best way to learn is to build stuff, so I build.
+                  </p>
+                </h2>
+              </td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <h2>
+                  <b>1st Project</b>
+                </h2>
+                <p>Project details</p>
+              </td>
+              <td colspan="2">
+                <h2>
+                  <b>2nd Project</b>
+                </h2>
+                <p>Project details</p>
+              </td>
+              <td colspan="2">
+                <h2>
+                  <b>3rd Project</b>
+                </h2>
+                <p>Project details</p>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="6" style={{ textAlign: "center" }}>
+                <CustomButton
+                  text="See Full Projects Archive"
+                  isDarkTheme={isDarkTheme}
+                />
+                <br />
+                <h2>
+                  <b>What Can I do for you ?</b>
+                </h2>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="6"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td colspan="2">w1</td>
+              <td colspan="2">w2</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td colspan="2">w3</td>
+              <td colspan="2">w4</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td colspan="6">Experience</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td colspan="2">e1</td>
+              <td colspan="2">e2</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td colspan="2">e3</td>
+              <td colspan="2">e4</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td colspan="2">e5</td>
+              <td colspan="2">e6</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td colspan="6">lien + contact</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td colspan="2">map</td>
+              <td colspan="2">form</td>
+              <td></td>
+            </tr>
           </tbody>
         </table>
       </section>
