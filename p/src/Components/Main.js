@@ -10,56 +10,43 @@ import CustomButton from "./CustomButton";
 const Grids = ({ isDarkTheme }) => {
   return (
     <Container>
-      <section id="aboutme">
-        <table style={{ marginTop: "150px", flexDirection: "row" }}>
-          <thead>
-            <tr>
-              <th></th>
-              <th></th>
-              <th></th>
-              <th></th>
-              <th></th>
-              <th></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td></td>
-              <td colspan="2" rowspan="2">
-                <div>
-                  <h1>
-                    <b>Mohamed KRICHENE</b>
-                  </h1>
-                  <h2 style={{ fontSize: "1.125rem" }}>
-                    <b>
-                      Fullstack web developer,
-                      <br /> Researcher At ReDCAD Laboratory
-                    </b>
-                  </h2>
-                  <p style={{ fontSize: "1rem" }}>
-                    Crafting, developing, and streamlining the digital
-                    experience:
-                    <br /> Designing, constructing, and optimizing the Web.
-                  </p>
-                  <CustomButton
-                    isDarkTheme={isDarkTheme}
-                    text="Learn More about me"
-                  />
-
-                  <br />
-                  <br />
-                  <CustomButton
-                    text="Download Resume"
-                    isDarkTheme={isDarkTheme}
-                  />
-                </div>
-              </td>
-              <td colspan="3" rowspan="2">
-                <Image src={mypicture} style={{ width: "260px" }} rounded />
-              </td>
-            </tr>
-          </tbody>
-        </table>
+      <section id="aboutme" style={{}}>
+        <div
+          id="aboutmediv"
+          style={{
+           
+          }}
+        >
+          <article
+            id="aboutmeart"
+            style={{
+              
+            }}
+          >
+            <header>
+              <h1>
+                <b>Mohamed KRICHENE</b>
+              </h1>
+              <h2 style={{ fontSize: "1.125rem" }}>
+                Fullstack web developer,
+                <br /> Researcher At ReDCAD Laboratory
+              </h2>
+            </header>
+            <p style={{ fontSize: "1rem", maxWidth: "390px" }}>
+              Crafting, developing, and streamlining the digital experience:
+              Designing, constructing, and optimizing the Web.
+            </p>
+            <CustomButton
+              isDarkTheme={isDarkTheme}
+              text="Learn More about me"
+            />
+            <br style={{ }} />
+            <CustomButton text="Download Resume" isDarkTheme={isDarkTheme} />
+          </article>
+          <aside>
+            <Image id="mypicturee" src={mypicture} rounded />
+          </aside>
+        </div>
       </section>
       <section id="experience">
         <table style={{ marginTop: "150px", flexDirection: "row" }}>
@@ -187,7 +174,6 @@ const Grids = ({ isDarkTheme }) => {
             </tr>
           </thead>
           <tbody>
-            
             <tr>
               <td colspan="6">lien + contact</td>
             </tr>

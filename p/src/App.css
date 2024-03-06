@@ -18,7 +18,7 @@ tbody {
 .Grids-dark {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 
     margin: 10px 6% 10px;
     position: relative;
@@ -386,5 +386,91 @@ a.dropdown-item:hover {
 
     to {
         transform: translateY(000px);
+    }
+}
+
+/* Styles for devices with width <= 770px */
+@media (max-width: 770px) {
+    #aboutme {
+        margin-top: 15px;
+        position: relative;
+    }
+
+    #aboutmediv {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #aboutmediv aside {
+        width: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
+        justify-content: center;
+        display: flex;
+    }
+
+    #aboutmeart {
+        justify-items: flex-start;
+        display: grid;
+        gap: .25rem;
+        margin-top: 15px;
+    }
+
+    #aboutmeart header {
+        margin-bottom: 1rem;
+    }
+
+    #aboutmeart p {
+        max-width: 390px;
+    }
+
+    #mypicturee {
+        width: 100%;
+
+    }
+}
+
+@media (min-width: 770px) {
+    #aboutme {
+        margin-top: 150px;
+        position: relative;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #aboutmediv {
+        display: inline-flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+
+    #aboutmeart {
+        width: -moz-available;
+        max-width: 600px;
+        justify-items: flex-start;
+        display: grid;
+        gap: 1px;
+    }
+
+    #aboutmediv aside {
+        width: 100%;
+        margin-left: 10%;
+        justify-content: center;
+        display: flex;
+    }
+
+    #aboutmeart header {
+        margin-bottom: 1rem;
+    }
+
+    #aboutmeart p {
+        max-width: 390px;
+    }
+
+    #mypicturee {
+        max-width: 340px;
+        max-height: 310px;
     }
 }
