@@ -30,11 +30,9 @@ function App() {
         <div id={`stars1${isDarkTheme ? "-dark" : ""}`}></div>
         <div id={`stars2${isDarkTheme ? "-dark" : ""}`}></div>
         <div id={`stars3${isDarkTheme ? "-dark" : ""}`}></div>
-        <div id={`stars4${isDarkTheme ? "-dark" : ""}`}></div>
+        {/*<div id={`stars4${isDarkTheme ? "-dark" : ""}`}></div>*/}
       </div>
-      <div
-        id="footer"
-      >
+      <div id="footer">
         <Footer isDarkTheme={isDarkTheme} />
       </div>
       <Routes>
