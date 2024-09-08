@@ -25,16 +25,35 @@ import { Carousel } from "react-bootstrap";
 
 const Grids = ({ isDarkTheme }) => {
   const handleDownloadResume = () => {
-    const link = document.createElement("a");
-    link.href = "/resume.pdf"; // Make sure this path is correct
-    link.download = "Mohamed_KRICHENE_Resume.pdf";
-    link.click();
+    try {
+      const resumeUrl =
+        "https://raw.githubusercontent.com/KrichenMed/portfolio/main/p/src/Media/Mohamed%20Krichene.pdf"; // Ensure this URL is correct
+
+      // Create a temporary anchor element
+      const link = document.createElement("a");
+      link.href = resumeUrl;
+      link.download = "Mohamed_KRICHENE_Resume.pdf";
+
+      // Append the anchor to the body (required for some browsers)
+      document.body.appendChild(link);
+
+      // Programmatically click the link to trigger the download
+      link.click();
+
+      // Remove the anchor after download is triggered
+      document.body.removeChild(link);
+    } catch (error) {
+      console.error("Failed to download the resume:", error);
+      alert("There was an error downloading the resume. Please try again.");
+    }
   };
   const handleMoreProjects = () => {
     window.open("https://github.com/KrichenMed", "_blank");
   };
+  const handleComposeEmail = () => {
+    window.location.href = "mailto:krichenmed99@gmail.com?";
+  };
 
- 
   return (
     <Container>
       <section id="aboutme" style={{}}>
@@ -169,39 +188,15 @@ const Grids = ({ isDarkTheme }) => {
         </section>
       </section>
 
-      <section id="Blog">
+      <section id="Contact">
         <div style={{ flex: "1 0 100%", textAlign: "center" }}>
-          <h2 style={{ marginTop: "25px", fontSize: "2.25rem" }}>
-            <b>My Background</b>
-          </h2>
+          <div style={{ marginTop: "25px" }}></div>
+          <CustomButton
+            text="Lets Get In Touch Here"
+            isDarkTheme={isDarkTheme}
+            onClick={handleComposeEmail}
+          />
         </div>
-      </section>
-
-      <section id="contact">
-        {/*<CountryDD/>*/}
-        <table style={{ marginTop: "150px", flexDirection: "row" }}>
-          <thead>
-            <tr>
-              <th></th>
-              <th></th>
-              <th></th>
-              <th></th>
-              <th></th>
-              <th></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td colspan="6">lien + contact</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td colspan="2">map</td>
-              <td colspan="2">form</td>
-              <td></td>
-            </tr>
-          </tbody>
-        </table>
       </section>
       <br />
     </Container>

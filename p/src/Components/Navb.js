@@ -49,7 +49,6 @@ function Navb({ isDarkTheme, onThemeChange }) {
             <Nav.Link href="#aboutme">About Me</Nav.Link>
             <Nav.Link href="#experience">Experience</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
-            <Nav.Link href="#Projects">Projects</Nav.Link>
           </Nav>
           <Nav>
             {/* Pass handleSwitchClick function as prop */}
