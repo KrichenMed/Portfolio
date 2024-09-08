@@ -27,7 +27,7 @@ const Grids = ({ isDarkTheme }) => {
   const handleDownloadResume = () => {
     try {
       const resumeUrl =
-        "https://raw.githubusercontent.com/KrichenMed/portfolio/main/p/src/Media/Mohamed%20Krichene.pdf"; // Ensure this URL is correct
+        "https://raw.githubusercontent.com/KrichenMed/portfolio/main/p/src/Media/Mohamed%20Krichene09-09-2024.pdf"; // Ensure this URL is correct
 
       // Create a temporary anchor element
       const link = document.createElement("a");
