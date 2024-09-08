@@ -211,10 +211,46 @@ a.dropdown-item:hover {
         max-width: 390px;
     }
 
-    #mypicturee {
-        width: 100%;
-
-    }
+        #mypicturee {
+            max-width: 340px;
+            max-height: 310px;
+        }
+    
+        .svg-image {
+            width: 270px;
+            height: auto;
+        }
+    
+        /* Centering the wrapper div */
+        .logoimagewrapper {
+            display: flex;
+            gap: 1px;
+            flex-wrap: wrap;
+            justify-content: center;
+            /* Horizontally center the items */
+            align-items: center;
+            /* Vertically center the items */
+            /* Full viewport height to center vertically */
+        }
+    
+        /* Common styles for all images */
+        .logohoverImage {
+            width: 50px;
+            height: 50px;
+            padding: 2px;
+            background-color: white;
+            transition: transform 0.3s ease;
+        }
+    
+        /* Specific styling for the Node.js logo */
+        #NodeImage {
+            width: 100px;
+        }
+    
+        /* Zoom effect on hover */
+        .logohoverImage:hover {
+            transform: scale(1.2);
+        }
 }
 
 @media (min-width: 770px) {
