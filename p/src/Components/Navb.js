@@ -6,6 +6,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import CustomizedSwitches from "./CustomSwitch";
 import MLogoWhite from "../Media/MLogoWhite.png";
 import MLogoBlack from "../Media/MLogoBlack.png";
+import SkyAnimation from "./Skyanimation";
 
 function Navb({ isDarkTheme, onThemeChange }) {
   // Function to handle switch click
@@ -17,8 +18,9 @@ function Navb({ isDarkTheme, onThemeChange }) {
     <Navbar
       expand="lg"
       data-bs-theme={isDarkTheme ? "dark" : "light"} // Correct reference to isDarkTheme
-      style={{ backgroundColor: isDarkTheme ? "#000" : "#fff" }}
+      style={{ backgroundColor: isDarkTheme ? "#000" : "#fff", borderTopLeftRadius:"35px", borderTopRightRadius:"35px"}}
     >
+      <SkyAnimation />
       <Container>
         <Navbar.Brand href="">
           {isDarkTheme ? (
@@ -46,13 +48,8 @@ function Navb({ isDarkTheme, onThemeChange }) {
           <Nav className="me-auto">
             <Nav.Link href="#aboutme">About Me</Nav.Link>
             <Nav.Link href="#experience">Experience</Nav.Link>
-            <Nav.Link href="#blog">Blog</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
-            <NavDropdown title="Projects" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Project 1</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Project 2</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Project 3</NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link href="#Projects">Projects</Nav.Link>
           </Nav>
           <Nav>
             {/* Pass handleSwitchClick function as prop */}

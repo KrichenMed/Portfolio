@@ -8,7 +8,7 @@ import seemoredark from "../Media/arrow-up-right-from-square-svgrepo-com dark.sv
 import learnmoredark from "../Media/arrow-sm-right-svgrepo-com dark.svg";
 import learnmorelight from "../Media/arrow-sm-right-svgrepo-com light.svg";
 
-const CustomButton = ({ text, isDarkTheme }) => {
+const CustomButton = ({ text, isDarkTheme, onClick }) => {
   const buttonRef = useRef(null);
   const [isHovered, setIsHovered] = useState(false);
 
@@ -38,6 +38,9 @@ const CustomButton = ({ text, isDarkTheme }) => {
       variant={isDarkTheme ? "light" : "dark"}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
+      onClick={() => {
+        if (onClick) onClick(); // Trigger the passed onClick handler
+      }}
     >
       {text}
       {text === "Download Resume" && (
@@ -57,7 +60,6 @@ const CustomButton = ({ text, isDarkTheme }) => {
       {text === "Learn More about me" && (
         <img
           style={{
-            marginLeft: "12px",
             transition: isHovered ? "margin-left 0.3s ease" : "none",
             marginLeft: isHovered ? "25px" : "12px",
           }}

@@ -1,12 +1,11 @@
 import React from "react";
+import CountryDD from "./CountryDD";
 
 const Footer = ({ isDarkTheme }) => {
   return (
     <footer className={`footer ${isDarkTheme ? "dark-text" : "light-text"}`}>
       <div className="footer-content">
-        <span
-          id={`footercopyright${isDarkTheme ? "-dark" : "-light"}`}
-        >
+        <span id={`footercopyright${isDarkTheme ? "-dark" : "-light"}`}>
           <b>2024 - PRESENT © Mohamed KRICHENE</b>
         </span>
         <p>
@@ -100,6 +99,9 @@ const Footer = ({ isDarkTheme }) => {
           </li>
         </ul>
       </nav>
+      {/*
+      <CountryDD />
+      */}
     </footer>
   );
 };

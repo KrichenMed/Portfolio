@@ -22,16 +22,14 @@ function App() {
       <div style={{ position: "fixed", zIndex: "9999999999999999999999999" }}>
         <HandwrittenTextAnimation />
       </div>
-      <Navb isDarkTheme={isDarkTheme} onThemeChange={handleThemeChange} />
+      <div style={{ backgroundColor: "black" }}>
+        <Navb isDarkTheme={isDarkTheme} onThemeChange={handleThemeChange} />
+      </div>
+
       <div className={`Grids${isDarkTheme ? "-light" : "-dark"}`}>
         <Grids isDarkTheme={isDarkTheme} />
       </div>
-      <div className={`bg-animation ${isDarkTheme ? "-light" : "-dark"}`}>
-        <div id={`stars1${isDarkTheme ? "-dark" : ""}`}></div>
-        <div id={`stars2${isDarkTheme ? "-dark" : ""}`}></div>
-        <div id={`stars3${isDarkTheme ? "-dark" : ""}`}></div>
-        <div id={`stars4${isDarkTheme ? "-dark" : ""}`}></div>
-      </div>
+
       <div id="footer">
         <Footer isDarkTheme={isDarkTheme} />
       </div>
