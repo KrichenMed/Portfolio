@@ -1,10 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.f5477cb3.css",
-    "main.js": "./static/js/main.e00ab03d.js",
-    "static/media/IMG_1824.JPG": "./static/media/IMG_1824.ad1120c6c7cff760e084.JPG",
+    "main.css": "./static/css/main.54ab5428.css",
+    "main.js": "./static/js/main.4e864378.js",
+    "static/media/EcommercePlatform1.png": "./static/media/EcommercePlatform1.d68a6091b49bf213cf5c.png",
+    "static/media/PXL_20240422_190715874.PORTRAIT~2.jpg": "./static/media/PXL_20240422_190715874.PORTRAIT~2.02ba55012fac8e699a13.jpg",
+    "static/media/EcommercePlatform3.png": "./static/media/EcommercePlatform3.b23096f590f713d204bb.png",
+    "static/media/E-commercePlatform5.png": "./static/media/E-commercePlatform5.18e59dcccc0516d4bfc3.png",
+    "static/media/EcommercePlatform2.png": "./static/media/EcommercePlatform2.be59b5ea6e3d87969d0f.png",
+    "static/media/EcommercePlatform4.png": "./static/media/EcommercePlatform4.d35f6fd7cc92a564ca0b.png",
     "static/media/MLogoBlack.png": "./static/media/MLogoBlack.9fe79eed9d4fbb31bc92.png",
     "static/media/MLogoWhite.png": "./static/media/MLogoWhite.899e7e66d4e0493437c4.png",
+    "static/media/reactJS.gif": "./static/media/reactJS.4b4a9e4ca6986a3409c7.gif",
+    "static/media/PHPLogo.png": "./static/media/PHPLogo.32bf6eb81578d4a73482.png",
+    "static/media/HTML5logo.png": "./static/media/HTML5logo.433fda35ec3b24cb2a74.png",
+    "static/media/Nodejs2.svg": "./static/media/Nodejs2.2e87b347a73e56adea5b4d575f09f2dc.svg",
     "static/media/download-square-svgrepo-com dark.svg": "./static/media/download-square-svgrepo-com dark.9d7443127de3fbf2461f58d7092224fa.svg",
     "static/media/arrow-up-right-from-square-svgrepo-com light.svg": "./static/media/arrow-up-right-from-square-svgrepo-com light.72d69c14f5397042ceab0865d20644f6.svg",
     "static/media/arrow-up-right-from-square-svgrepo-com dark.svg": "./static/media/arrow-up-right-from-square-svgrepo-com dark.d42ce1741369efbf5908b341a4ba3742.svg",
@@ -12,11 +21,11 @@
     "static/media/arrow-sm-right-svgrepo-com light.svg": "./static/media/arrow-sm-right-svgrepo-com light.95b0ea92d17a65164899e983416700c5.svg",
     "static/media/arrow-sm-right-svgrepo-com dark.svg": "./static/media/arrow-sm-right-svgrepo-com dark.c07055c70121b714c191241209536b5b.svg",
     "index.html": "./index.html",
-    "main.f5477cb3.css.map": "./static/css/main.f5477cb3.css.map",
-    "main.e00ab03d.js.map": "./static/js/main.e00ab03d.js.map"
+    "main.54ab5428.css.map": "./static/css/main.54ab5428.css.map",
+    "main.4e864378.js.map": "./static/js/main.4e864378.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5477cb3.css",
-    "static/js/main.e00ab03d.js"
+    "static/css/main.54ab5428.css",
+    "static/js/main.4e864378.js"
   ]
 }
